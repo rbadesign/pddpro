@@ -1,0 +1,33 @@
+/* CSS Document */
+
+body {
+	text-align: justify;
+}
+
+div[data-role='page'] {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	background-position: center top;
+}
+
+div[data-role='content'] h1 {
+	font-size: medium;
+}
+
+div[data-role='content'] h2 {
+	font-size: medium;
+}
+
+div[data-role='content'] h3 {
+	font-size: medium;
+}
+
+div[data-role='content'] center img {
+	width: 100%;
+	max-width:480px;
+}
+
+.ui-collapsible h3 .ui-btn-text,
+a {
+    white-space:normal !important;
+}​
