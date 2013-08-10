@@ -4,7 +4,7 @@ $(document).bind('mobileinit',function(){
 	$.mobile.allowCrossDomainPages = true;
 	$.mobile.phonegapNavigationEnabled = true;
 	$.mobile.page.prototype.options.domCache = false;
-	$.mobile.ajaxEnabled=false;
+	$.mobile.ajaxEnabled=true;
 	$.mobile.pushStateEnabled=true;
 	$.mobile.listview.prototype.options.filterPlaceholder = "Поиск ...";
 });
